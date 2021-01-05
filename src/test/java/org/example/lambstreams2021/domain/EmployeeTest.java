@@ -24,7 +24,8 @@ class EmployeeTest {
     @Test
     void testName() {
         // given
-        Employee bram = new Employee("Bram Janssens");
+        Employee bram = new Employee("Bram Janssens");  // reference type
+
 
         // when
         String s = bram.toString();

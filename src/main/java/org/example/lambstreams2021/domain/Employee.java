@@ -13,8 +13,21 @@ public class Employee {
         this.name = name;
     }
 
+    public Employee(String name, LocalDate date) {
+        this.name = name;
+        this.dateStart = date;
+    }
+
     public void setDateStart(LocalDate dateStart) {
         this.dateStart = dateStart;
+    }
+
+    public LocalDate getDateStart() {
+        return dateStart;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public String toString() {
